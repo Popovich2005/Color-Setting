@@ -44,8 +44,7 @@ final class ViewController: UIViewController {
         blueLabel.text = String(format: "%.2f", blueSlider.value)
         settingColor()
     }
-    
-    func settingColor() {
+    private func settingColor() {
         currecterColorView.backgroundColor = UIColor(
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
