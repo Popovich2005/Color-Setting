@@ -25,9 +25,11 @@ final class ViewController: UIViewController {
         
         currecterColorView.layer.cornerRadius = 10
         
-        redLabel.text = String(0.0)
-        greenLabel.text = String(0.0)
-        blueLabel.text = String(0.0)
+        redLabel.text = redSlider.value.formatted()
+        greenLabel.text = redSlider.value.formatted()
+        blueLabel.text = redSlider.value.formatted()
+        
+        settingColor()
     }
 
     @IBAction func redSliderAction() {
