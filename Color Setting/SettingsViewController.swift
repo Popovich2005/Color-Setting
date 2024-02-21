@@ -28,12 +28,13 @@ final class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
                 
         currecterColorView.layer.cornerRadius = 10
         
         getColor()
+        
         settingColor()
+        
         redLabel.text = string(from: redSlider)
         greenLabel.text = string(from: greenSlider)
         blueLabel.text = string(from: blueSlider)

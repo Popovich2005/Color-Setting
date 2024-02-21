@@ -18,10 +18,6 @@ final class ShowColorViewController: UIViewController {
         settingsVC?.delegate = self
         settingsVC?.settingsColorVC = view.backgroundColor
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 }
 
 // MARK: - SettingsColorDelegate
